@@ -1,6 +1,6 @@
 ####################################################
 # AUTHOR:	F.Bischof (info@meer-web.nl)           #
-# VERSION:	1.0.0								   #
+# VERSION:	1.0.1								   #
 # DATE:		01-03-2023							   #
 ####################################################
 
@@ -52,4 +52,4 @@ Write-Host "Days:" $NUMBER[0]
 Write-Host "Hours:" $NUMBER[1]
 Write-Host "Minutes:" $NUMBER[2]
 Write-Host "Seconds:" $NUMBER[3]
-Write-Host "${DAYS}:${HOURS}:${MINUTES}:${SECONDS}"
+Write-Host "$NUMBER[0]:$NUMBER[1]:$NUMBER[2]:$NUMBER[3]"
